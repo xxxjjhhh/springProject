@@ -1,4 +1,5 @@
 //springBoot
+//src->main->java->packageName->controller.java
 
 package com.example.spring;
 
