@@ -1,1 +1,4 @@
 // Intellij -> help -> Action -> Plugins -> Mustache
+
+
+// src/main/resources/templetes/index.mustache
