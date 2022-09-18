@@ -38,11 +38,12 @@ public class hello {
       //dto form 클래스를 불러옴
     }
   
-    @GetMapping("/hello")
-    public String hello (Model model) {
-
-        model.addAttribute("USERNAME", "kimkimkim");
-        return "hello"; //src/main/resources/templets/hello.mustache
+  //아래 필요없음.
+  //  @GetMapping("/hello")
+  //  public String hello (Model model) {
+  //
+  //     model.addAttribute("USERNAME", "kimkimkim");
+  //     return "hello"; //src/main/resources/templets/hello.mustache
     }
 
 }
