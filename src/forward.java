@@ -11,6 +11,7 @@ public class hello {
     public String hello (RedirectAttributes redir) {
         
         redir.addFlashAttribute("key", "value");
+        //flash가 붙으면 uri에 파라미터 공개가 안됨.
         return "forward:/post1";
       //오류시 / 제거
     }
