@@ -24,6 +24,7 @@ public class Hellodata {
 //Controller
 package com.example.project1.cotroller;
 
+import com.example.project1.dto.Hellodata;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
