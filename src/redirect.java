@@ -17,10 +17,10 @@ public class hello {
   
   
     @GetMapping("/post1") //redir receiver
-    public String hello (@RequestParam("pageNum") String key) {
+    public String hello (@RequestParam("pageNum") String key Model model) {
         
-        redir.addAttribute("key", "value");
-        return "redirect:/post1";
+        model.addAttribute("USERNAME", key);
+        return "index";
       //오류시 / 제거
     }
   
