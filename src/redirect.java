@@ -17,7 +17,7 @@ public class hello {
   
   
     @GetMapping("/post1") //redir receiver
-    public String hello (@RequestParam("pageNum") String key Model model) {
+    public String hello (@RequestParam("pageNum") String key, Model model) {
         
         model.addAttribute("USERNAME", key);
         return "index";
