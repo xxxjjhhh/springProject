@@ -63,7 +63,7 @@ public class hello {
 }
 
 
-// --dto 에 toEntity 함수 생성
+// --entity 에 toEntity 함수 생성
 
 public Hello toEntity(){
   
