@@ -20,6 +20,8 @@ public class hello {
       //dto form 클래스를 불러옴
       
       Hello hello = form.toEntity(); //toEntity 클래스를 dto패키지 아래에 있는 Hellodata.java에 생성해야함.
+      //Entity클래스이름 객체이름 = dto클래스.toEntity함수();
+      
       
       //entity -> repository
       Hello saved = helloRepository.save(hello);
