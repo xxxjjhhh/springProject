@@ -1,7 +1,8 @@
 //no stop
-nohup java -jar springProject.jar
-//if no logging a
-& > /dev/null
+nohup java -jar springProject.jar &
+// & mean background
+//if no logging add
+> /dev/null
 
 //log file location
 nohup.out
