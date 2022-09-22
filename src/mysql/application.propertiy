@@ -1,0 +1,4 @@
+spring.datasource.url=jdbc:mysql://디비엔드포인트:포트/디비이름?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true
+spring.datasource.username=
+spring.datasource.password=
+spring.jpa.show-sql=
