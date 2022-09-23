@@ -5,7 +5,8 @@ package com.example.project1.repository;
 
 import com.example.project1.entity.helloEntity; //entity클래스 import
 import org.springframework.data.repositiry.CrudRepository;
-  
+
+@Repository
 public interface HelloRepository extends CrudRepository<HelloEntity, Long> { //<entity이름, id값데이터타입>
   
     
