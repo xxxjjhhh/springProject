@@ -66,7 +66,7 @@ public class hello {
 // --dto 에 toEntity 함수 생성
 // entity 클래스 경로를 dto클래스에 import
 
-public Hello toEntity(){
+public HelloEntity toEntity(){
   
-    return new Hello(null, title, content);
+    return new HelloEntity(null, title, content);
 }
