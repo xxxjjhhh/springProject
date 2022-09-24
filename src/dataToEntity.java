@@ -48,7 +48,7 @@ public class hello {
     public String hello (Hellodata form) { //Hellodata 클래스의 경우 dto 참조 : github의 getpost/postDataSend.java
       //dto form 클래스를 불러옴
       
-      Hello hello = form.toEntity(); //toEntity 클래스를 dto패키지 아래에 있는 Hellodata.java에 생성해야함.
+      HelloEntity hello = form.toEntity(); //toEntity 클래스를 dto패키지 아래에 있는 Hellodata.java에 생성해야함.
       
     }
   
