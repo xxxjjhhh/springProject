@@ -11,6 +11,10 @@ public class Hellodata {
   private String title;
   private String content;
   
+  public String gettitle () {
+    return title;
+  }
+
   public Hellodata(String title, String content) {
     
     this.title = title;
@@ -37,6 +41,8 @@ public class hello {
     @PostMapping("/hellodata")
     public String hello (Hellodata form) {
       //dto form 클래스를 불러옴
+
+        String var1 = form.gettitle();
     }
   
   //아래 필요없음.
